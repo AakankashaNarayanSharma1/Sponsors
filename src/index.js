@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './newapp';
+import App from './napp';
 import sponsors from './sponsors';
-import spons_type from './spons_types';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App data={sponsors} name={spons_type}/>, document.getElementById('root'));
+ReactDOM.render(<App data={sponsors} />, document.getElementById('root'));
 registerServiceWorker();
